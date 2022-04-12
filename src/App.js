@@ -15,8 +15,11 @@ import MainUIUX from './components/main-component/MainSingleServices/MainUIUX';
 import MainDMarketing from './components/main-component/MainSingleServices/MainDMarketing';
 import MainGraphicDesign from './components/main-component/MainSingleServices/MainGraphicDesign';
 import MainWebDev from './components/main-component/MainSingleServices/MainWebDev';
+import NotFound from './components/main-component/404/NotFound';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SplashPage from './components/main-component/SplashPage/SplashPage';
+
+import { BrowserRouter, Routes, Route   } from "react-router-dom";
 
 function App() {
   return (
@@ -34,6 +37,7 @@ function App() {
         <Route path="/portfolio" element={<MainPortfolio />} />
         <Route path="/contact-us" element={<MainContactUs />} />
         <Route path="/portfolio/petyez" element={<MainPetyez />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
       <SocialBar />

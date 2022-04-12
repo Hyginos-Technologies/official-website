@@ -13,13 +13,13 @@ const Footer = () => {
     <div className='col-md-4'>
     <h2 className='py-2'>About Us</h2>
     <p>Whether you’re an artist, songwriter, musician, label or music publisher, Kobalt's full range of service.</p>
-    <a href='#'>
+    <a href='https://twitter.com/Hyginosofficial' target='_blank'>
         <i class="fa-brands fa-twitter"></i>
     </a>
-    <a href='#'>
+    <a href='https://www.instagram.com/hyginosofficial/' target='_blank'>
     <i class="fa-brands fa-instagram"></i>
     </a>
-    <a href='#'>
+    <a href='#' target='_blank'>
     <i class="fa-brands fa-linkedin-in"></i>
     </a>
     </div>

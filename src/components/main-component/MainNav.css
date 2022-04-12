@@ -1,0 +1,10 @@
+ul li a{
+    transition: all 0.3s;
+}
+
+ul li a:hover{
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
