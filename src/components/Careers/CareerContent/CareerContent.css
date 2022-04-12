@@ -19,3 +19,49 @@
     width: 30%;
     padding: 5px;
 }
+
+#career .blog .header{
+    display: flex;
+}
+
+#career .blog .header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+#career .blog .header .header-title .location{
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+#career .blog .header .header-title .location i{
+    margin-right: 10px;
+}
+
+#career .blog .header .header-title .location p{
+    margin: 0;
+    padding: 0;
+}
+
+#career .blog  .footer-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+#career .blog  .footer-card p{
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-size: 12px;
+
+}
+
+#career .blog  .footer-card a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}

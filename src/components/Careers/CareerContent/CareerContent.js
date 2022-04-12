@@ -14,44 +14,27 @@ const CareerContent = () => {
     <div className='row'>
         <div className='blog'>
             <div class="card">
-            <img class="card-img-top" src={IMG} alt="Card image cap" />
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark">Read More</a>
-            </div>
-            </div>
-        </div>
 
-        <div className='blog'>
-            <div class="card">
-            <img class="card-img-top" src={IMG} alt="Card image cap" />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark">Read More</a>
-            </div>
-            </div>
-        </div>
+              <div className='header'>
+                 <img class="card-img-top" src={IMG} alt="Card image cap" />
 
-        <div className='blog'>
-            <div class="card">
-            <img class="card-img-top" src={IMG} alt="Card image cap" />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark">Read More</a>
-            </div>
-            </div>
-        </div>
+                 <div className='header-title'>
+                  <h5 class="card-title">IOS + Flutter Developer</h5>
+                    <div className='location'>
+                    <i class="fa-solid fa-location-dot"></i><p>Kakinada , Andhra Pradesh</p>
+                    </div>
+                 </div>
+              </div>
+                <br />
+                <p>Transportation : NOT Available</p>
+                <p>Salary : As Per Company Standard</p>
+                
+                <div className='footer-card'>
+                  <p>Experience : 3 -6 Years</p>
+                  <a href='mailto:career@Hyginostechnologies.com'>career@Hyginostechnologies.com</a>
+                </div>
 
-        <div className='blog'>
-            <div class="card">
-            <img class="card-img-top" src={IMG} alt="Card image cap" />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark">Read More</a>
             </div>
             </div>
         </div>
