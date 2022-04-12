@@ -16,6 +16,7 @@ import MainDMarketing from './components/main-component/MainSingleServices/MainD
 import MainGraphicDesign from './components/main-component/MainSingleServices/MainGraphicDesign';
 import MainWebDev from './components/main-component/MainSingleServices/MainWebDev';
 import NotFound from './components/main-component/404/NotFound';
+import Thankyou from './components/main-component/Thank-You/thankyou';
 
 import SplashPage from './components/main-component/SplashPage/SplashPage';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<MainHome />} />
         <Route path="/about" element={<MainAbout />} />
         <Route path="/services" element={<MainServices />} />
+        <Route path="/thank-you" element={<Thankyou />} />
         <Route path="/services/digital-marketing" element={<MainDMarketing />} />
         <Route path="/services/graphic-design" element={<MainGraphicDesign />} />
         <Route path="/services/ui-ux" element={<MainUIUX />} />
