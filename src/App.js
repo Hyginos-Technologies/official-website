@@ -18,7 +18,6 @@ import MainWebDev from './components/main-component/MainSingleServices/MainWebDe
 import NotFound from './components/main-component/404/NotFound';
 import Thankyou from './components/main-component/Thank-You/thankyou';
 
-import SplashPage from './components/main-component/SplashPage/SplashPage';
 
 import { BrowserRouter, Routes, Route   } from "react-router-dom";
 

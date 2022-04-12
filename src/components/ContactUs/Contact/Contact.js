@@ -25,7 +25,12 @@ const Contact = () => {
     </section>
 
     
-    <Form>    
+    <Form action="https://formsubmit.co/contact@hyginostechnologies.com" method="POST">    
+      <input type="hidden" name="_next" value="/thank-you" />
+        <input type="hidden" name="_subject" value="New Client!" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
        <div className="container">
            <div id="contact-title">
            <h2>Get in Touch with Us</h2>

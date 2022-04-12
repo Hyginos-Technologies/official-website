@@ -20,7 +20,13 @@ const GetInTouch = () => {
                 </div>
                 </div>
 
-                <form className='col-md-7'>
+                <form className='col-md-7' action="https://formsubmit.co/contact@hyginostechnologies.com" method="POST">
+
+                <input type="hidden" name="_next" value="/thank-you" />
+                <input type="hidden" name="_subject" value="New Client!" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                
                 <h3>Get In Touch</h3>
                 <div className='row'>
                 <div className='col-md-6 col-sm-12 my-2'>
