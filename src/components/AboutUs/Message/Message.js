@@ -1,6 +1,6 @@
 import React from 'react'
 import './Message.css'
-import IMG from '../../../img/about-us-new.png'
+import IMG from '../../../img/founder.jpeg'
 
 const Message = () => {
   return (
