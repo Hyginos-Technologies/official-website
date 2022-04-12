@@ -3,12 +3,15 @@ import './ShowcaseCareer.css'
 
 import LOGO from '../../../img/logo.png'
 import MainNav from '../../main-component/MainNav'
+import { Link } from 'react-router-dom'
+
+
 
 const ShowcaseCareer = () => {
   return (
     <header>
     <nav>
-      <h1><span className='logo'><img src={LOGO} /></span>Hyginos technologies</h1>
+    <Link to='/'><h1><span className='logo'><img src={LOGO} /></span>Hyginos technologies</h1></Link>
 
     <MainNav />
 

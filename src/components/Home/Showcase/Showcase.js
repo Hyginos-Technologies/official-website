@@ -11,7 +11,7 @@ const Showcase = () => {
   return (
     <header>
       <nav>
-        <h1><span className='logo'><img src={LOGO} /></span>Hyginos technologies</h1>
+        <Link to='/'><h1><span className='logo'><img src={LOGO} /></span>Hyginos technologies</h1></Link>
   
       <MainNav />
       
