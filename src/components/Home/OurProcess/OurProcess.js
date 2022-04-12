@@ -19,7 +19,7 @@ const OurProcess = () => {
                     <hr />
                 </div>
 
-                    <p>Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p>Our UI/Ux Designers will make sure that your dream application is designed as please.We Will Design your idea or application with the newest technologies in the industry.</p>
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>
@@ -33,7 +33,7 @@ const OurProcess = () => {
                     <hr />
                 </div>
 
-                    <p>Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p>After finishing the desinging part our developer will Develop our application perfectly with the functinalities that you wish to have.Our applications will be realiable and secure.</p>
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>
@@ -47,7 +47,7 @@ const OurProcess = () => {
                     <hr />
                 </div>
 
-                    <p>Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p>After Finish Developing we will go through bunch of testing of the application and make sure that the application is user friendly.After those tests are done we will package it for deploy.</p>
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>

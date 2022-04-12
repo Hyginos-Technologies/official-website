@@ -12,7 +12,7 @@ const Footer = () => {
 
     <div className='col-md-4'>
     <h2 className='py-2'>About Us</h2>
-    <p>Whether you’re an artist, songwriter, musician, label or music publisher, Kobalt's full range of service.</p>
+    <p>We are a Software Development & Consulting Firm that is located in India.We are dedicated to provide soltuions to your problems in your Business.</p>
     <a href='https://twitter.com/Hyginosofficial' target='_blank'>
         <i class="fa-brands fa-twitter"></i>
     </a>
@@ -25,7 +25,7 @@ const Footer = () => {
     </div>
 
     <div className='col-md-4'>
-    <h2 className='py-2'>Digital Agency</h2>
+    <h2 className='py-2'>Hyginos Technologies</h2>
     <p>Participant became a Certified B Corporation in 2017. B Corps are a new type of company that uses the power of business to solve social and environmental problems. B Corp certification is to business what Fair Trade certification is to coffee or USDA Organic certification is to milk.</p>
     </div>
 

@@ -22,7 +22,7 @@ const ServicesProvide = () => {
                 <div class="card-body">
                     <img src={GD} />
                     <h5 class="card-title text-dark">Graphic Design</h5>
-                    <p class="card-text">Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p class="card-text">We Design Images & Video with the Best Software out there.We Design those images with great quality.We have a commited & Dedicated team to create great pice of design.We Gurantee that we would provide the best possible graphic Design.</p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ const ServicesProvide = () => {
                 <div class="card-body">
                     <img src={UI} />
                     <h5 class="card-title text-dark">UI/UX design</h5>
-                    <p class="card-text">Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p class="card-text">UI/UX is a huge part build an Application.The Way an application is viewed by a user is very important.We will make sure that the Application can we design is very catchy to the users.Our team will make sure you will get the best.</p>
                 </div>
             </div>
             </Link>
@@ -44,7 +44,7 @@ const ServicesProvide = () => {
                 <div class="card-body">
                     <img src={DM} />
                     <h5 class="card-title text-dark">Digital Marketing</h5>
-                    <p class="card-text">Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p class="card-text">Digital Marketing is an important part in promoting your product / service we will use our digital marketing tools to promote your product / service to as much people as possible.Using Digital Campaigns</p>
                 </div>
             </div>
             </Link>
@@ -54,7 +54,7 @@ const ServicesProvide = () => {
                 <div class="card-body">
                     <img src={EC} />
                     <h5 class="card-title text-dark">Web Development</h5>
-                    <p class="card-text">Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                    <p class="card-text">Having a Website for your business is very essential.To reach your customers or clients fast and respond fast.We will make sure that you will get the most attractive and eye catching website a business can possibly get.</p>
                 </div>
             </div>
             </Link>

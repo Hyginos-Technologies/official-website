@@ -11,7 +11,6 @@ import Join from '../Home/Join/Join'
 import NeedExpert from '../Home/NeedExpert/NeedExpert'
 import OurProcess from '../Home/OurProcess/OurProcess'
 import Portfolio from '../Home/Portfolio/Portfolio'
-import Footer from '../Home/Footer/Footer'
 
 
 const MainHome = () => {

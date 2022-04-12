@@ -14,9 +14,9 @@ const HowWeWork = () => {
             <div className='col-md-6 how-we-work-left'>
                 <div>
                 <h2>HOW WE WORK</h2>
-                <p><span>“</span>Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users.</p>
+                <p><span>“</span>We have an amazing team who are dedicated and motivated to work for our company.We at Hyginos Technologies treat our team as our own family.</p>
 
-                <p>Rinixweb is a creative and an ingenious web design firm; we take the time to understand your business from web usability and search techniques.brands by creating for them websites that push the users..</p>
+                <p>Interms of working environment we have a great collabrative environment that increases our productivity and do our best work possible.</p>
 
                 <Link to='/about' className='home-about'>Visit Now</Link>
                 </div>
