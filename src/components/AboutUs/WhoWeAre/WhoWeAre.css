@@ -1,0 +1,12 @@
+#who-we-are{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#who-we-are h3{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 35px;
+    color: #313131;
+}

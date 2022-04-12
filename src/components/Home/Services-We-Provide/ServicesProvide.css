@@ -1,0 +1,51 @@
+#service-card-container .service-provide-title{
+    text-align: center;
+    padding: 40px;
+}
+
+#service-card-container .service-provide-title h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#service-card-container .service-provide-title h5 span{
+    font-weight: bold;
+}
+
+#service-card-container h2{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+}
+
+#services-card{
+    text-align: center;
+}
+
+#services-card .card{
+    background-color: #E5E5E5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s;
+}
+
+#services-card .card:hover{
+ border-bottom: 2px solid #333;
+
+}
+
+
+#services-card img{
+    margin: 5px;
+}
+
+
+
+#services-card p{
+    color: #666666;
+    font-size: 16px;
+}

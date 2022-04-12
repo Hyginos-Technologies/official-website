@@ -1,0 +1,42 @@
+.join-us{
+    text-align: center;
+    padding: 50px;
+}
+
+.join-us h1{
+    font-size: 35px;
+    line-height: 55px;
+    color: #313131;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.join-us p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.join-us .subscribe{
+display: flex;
+justify-content: center;
+margin-top: 35px;
+}
+
+.join-us .subscribe input{
+    width: 30%;
+    margin-right: 20px;
+    background-color: #ccc8c8;
+    border: none;
+    border-radius: 10px;
+    color: #c4c4c4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.join-us .subscribe button{
+    border-radius: 10px;
+}

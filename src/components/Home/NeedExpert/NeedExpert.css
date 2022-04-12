@@ -1,0 +1,71 @@
+.need-experts{
+    margin: 40px;
+    background: url('../../../img/group-r-1.png') no-repeat 50% -240%;
+}
+
+.need-experts .main-content-expert{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.need-experts .main-content-expert h2{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 35px;
+    color: #313131;
+}
+
+/* .need-experts .main-content-expert p{
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 20px;
+    color: #666666;
+} */
+
+.need-experts img{
+    width: 80%;
+
+}
+
+.need-experts .expert-content{
+    text-align: center;
+    padding: 10px;
+}
+
+.need-experts .expert-image-left,.need-experts .expert-image-right{
+    position: relative;
+    z-index: 1;
+}
+
+.need-experts .box-left{
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    z-index: -1;
+}
+
+.need-experts .box-right{
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    z-index: -1;
+}
+
+.need-experts .expert-content{
+    padding: 20px;
+}
+
+.need-experts .expert-content h5{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.need-experts .expert-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+}

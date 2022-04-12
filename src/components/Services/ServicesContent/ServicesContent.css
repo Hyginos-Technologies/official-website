@@ -1,0 +1,37 @@
+#service-container .single-service{
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#service-container .single-service .image-container{
+    margin: auto;
+    text-align: center;
+
+}
+
+#service-container h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+#service-container p{
+    font-weight: 300;
+    font-size: 20px;
+    color:#666;
+}
+
+#service-container img{
+    width: 400px;
+    height: 400px;
+    display: inline;
+}
+
+#service-container .single-service a{
+    text-decoration: none;
+}

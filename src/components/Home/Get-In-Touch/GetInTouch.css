@@ -1,0 +1,49 @@
+.get-in-touch{
+    padding: 20px;
+}
+
+.get-in-touch-title{
+    text-align: center;
+    padding: 40px;
+}
+
+.get-in-touch .main-image{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.get-in-touch form {
+    padding-left: 20px;
+}
+
+.get-in-touch label{
+    padding: 4px;
+}
+
+.get-in-touch .contact-im-container{
+    position: relative;
+}
+
+.get-in-touch .contact-im-container .contact-r{
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    z-index: -1;
+}
+
+.get-in-touch .contact-im-container .contact-b{
+    position: absolute;
+    width: 100px;
+    bottom: -25px;
+    right: -20px;
+    z-index: -1;
+}
+
+.get-in-touch input,.get-in-touch textarea{
+    border: none;
+    background-color: #cccccc;
+    color: #f3ebeb;
+    border-radius: 5px;
+}

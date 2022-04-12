@@ -1,0 +1,19 @@
+#service-content h3{
+    text-align: center;
+    }
+    
+    #service-content .one-service-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #service-content .one-service-content .one-service-sub-content{
+        width: 60%;
+    }
+    
+    #service-content .one-service-content img{
+        width: 400px;
+        height: 100%;
+        border-top-left-radius: 80%;
+        object-fit:cover;
+    }

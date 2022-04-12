@@ -1,0 +1,29 @@
+#message{
+    margin-top: 40px;
+    background: url('../../../img/group-r.png');
+}
+
+#message h2{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 35px;
+    color: #313131;
+}
+
+#message .message-n-image{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin: 30px;
+
+}
+
+#message .message-n-image img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+#message .message-n-image .message-wrap{
+    width: 60%;
+    text-align: left;
+}

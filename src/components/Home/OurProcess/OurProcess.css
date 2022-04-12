@@ -1,0 +1,57 @@
+.our-process{
+    margin: 60px;
+    padding: 40px;
+}
+
+.our-process h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.our-process .card {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border: none;
+}
+.our-process hr{
+    width: 50%;
+    margin-left: 10px;
+    padding: 1px;
+    color: #000;
+    background-color: #000;
+}
+
+.our-process .header-card h1{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 122px;
+}
+.our-process .header-card h3{
+    color: #313131;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.our-process p{
+    color: #666666;
+}
+
+.our-process .home-read-more{
+    text-decoration: none;
+    color: #fff;
+    background-color: #313131;
+    padding: 2px 5px;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+}
