@@ -27,3 +27,18 @@
     width: 60%;
     text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+    #message .message-n-image img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #message .message-n-image .message-wrap{
+        width: 100%;
+    }
+
+    #message h2{
+        font-size: 25px;
+    }
+}

@@ -1,3 +1,8 @@
+#service-content{
+    margin: auto;
+    overflow: hidden;
+}
+
 #service-content h3{
     text-align: center;
     }
@@ -16,4 +21,17 @@
         height: 100%;
         border-top-left-radius: 80%;
         object-fit:cover;
+    }
+
+    @media screen and (max-width: 500px) {
+        #service-content .one-service-content{
+            display: block;
+        }
+
+        #service-content .one-service-content .one-service-sub-content{
+            width: 100%;
+        }
+        #service-content .one-service-content img{
+            width: 100%;
+        }
     }

@@ -31,6 +31,7 @@ const UIUX = () => {
     <div className='one-service-content'>
 
     <div className='one-service-sub-content'>
+      
     <p>The meanings of UX and UI imply that they are related design disciplines, yet they are very different in nature. The UI design is more concerned with the visual properties of design as well as the overall feel it conveys. But without great UX, even the most beautifully designed UI will cause a bad user experience.</p>
 
     <p>Down Below are Some of the Tools we Use</p>
@@ -43,7 +44,9 @@ const UIUX = () => {
     </ul>
     </div>
 
+    
         <img src={IMG} />
+     
 
     </div>
 

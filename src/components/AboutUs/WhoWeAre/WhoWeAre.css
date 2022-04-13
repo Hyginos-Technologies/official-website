@@ -10,3 +10,9 @@
     font-size: 35px;
     color: #313131;
 }
+
+@media screen and (max-width: 500px) {
+    #who-we-are h3{
+        font-size: 25px;
+    }
+}

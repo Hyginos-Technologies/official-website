@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+header{
+    overflow: hidden;
+}
+
 a{
     text-decoration: none;
 }

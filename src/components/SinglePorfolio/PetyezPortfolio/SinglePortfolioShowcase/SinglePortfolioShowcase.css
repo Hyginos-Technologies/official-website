@@ -81,3 +81,21 @@ header .showcase-content .showcase-content-caption{
        padding: 0;
    }
 }
+
+@media screen and (max-width: 500px) {
+
+    header .wrap-showcase-content .showcase-content{
+        width: 100%;
+        overflow: hidden;
+    }
+
+   header .wrap-showcase-content .showcase-content .showcase-content-caption{
+       font-size: 15px;
+   }
+
+   header .wrap-showcase-content .showcase-content .showcase-title{
+       font-size: 30px;
+       width: 70%;
+      
+   }
+}

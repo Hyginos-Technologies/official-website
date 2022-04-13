@@ -69,7 +69,8 @@ header .showcase-content .showcase-content-caption{
 @media screen and (max-width: 500px) {
 
     header .wrap-showcase-content .showcase-content{
-        width: 400px;
+        width: 100%;
+        overflow: hidden;
     }
 
    header .wrap-showcase-content .showcase-content .showcase-content-caption{
@@ -77,9 +78,8 @@ header .showcase-content .showcase-content-caption{
    }
 
    header .wrap-showcase-content .showcase-content .showcase-title{
-       font-size: 20px;
+       font-size: 30px;
        width: 70%;
-       margin: 0;
-       padding: 0;
+      
    }
 }
