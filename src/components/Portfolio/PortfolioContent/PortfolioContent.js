@@ -3,12 +3,14 @@ import './PortfolioContent.css'
 import IMG from '../../../img/logo-f.svg'
 import { Link } from 'react-router-dom'
 
+import Fade from 'react-reveal/Fade';
+
 const PortfolioContent = () => {
   return (
     <section id="portfolio-content" className='container my-3'>
 
       <div className='portoflio-title'>
-        <h2>OUR PORTFOLIO</h2>
+      <Fade top cascade><h2>OUR PORTFOLIO</h2></Fade>
         <hr />
       </div>
 

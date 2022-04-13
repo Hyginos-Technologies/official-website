@@ -6,6 +6,8 @@ import B1 from '../../../img/group-b-1.png';
 import R1 from '../../../img/group-r-1.png';
 import { Link } from 'react-router-dom';
 
+import Fade from 'react-reveal/Fade';
+
 const HowWeWork = () => {
   return (
     <section className='container'>
@@ -13,7 +15,7 @@ const HowWeWork = () => {
 
             <div className='col-md-6 how-we-work-left'>
                 <div>
-                <h2>HOW WE WORK</h2>
+                <Fade top cascade><h2>HOW WE WORK</h2></Fade>
                 <p><span>“</span>We have an amazing team who are dedicated and motivated to work for our company.We at Hyginos Technologies treat our team as our own family.</p>
 
                 <p>Interms of working environment we have a great collabrative environment that increases our productivity and do our best work possible.</p>

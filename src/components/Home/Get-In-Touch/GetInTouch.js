@@ -5,11 +5,13 @@ import IMG from '../../../img/contact-us.png'
 import R1 from '../../../img/group-r.png'
 import B1 from '../../../img/group-b.png'
 
+import Fade from 'react-reveal/Fade';
+
 const GetInTouch = () => {
   return (
     <section className='container my-4'>
         <div className='get-in-touch'>
-            <h1 className='get-in-touch-title'>Contact Us</h1>
+        <Fade top cascade><h1 className='get-in-touch-title'>Contact Us</h1></Fade>
 
             <div className='row'>
                 <div className='col-md-5'>  

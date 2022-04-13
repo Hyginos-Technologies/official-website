@@ -2,16 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './OurProcess.css'
+import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
 
 const OurProcess = () => {
   return (
     <section className='our-process'>
         <div className='container'>
-        <h2>Our Process</h2>
+        <Fade top cascade><h2>Our Process</h2></Fade>
 
         <div className='row'>
 
             <div className='col-md-4'>
+            <Pulse>
                 <div className='card'>
                 <div className='header-card'>
                     <h1>01</h1>
@@ -23,9 +26,11 @@ const OurProcess = () => {
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>
+                </Pulse>
             </div>
 
             <div className='col-md-4'>
+            <Pulse>
                 <div className='card'>
                 <div className='header-card'>
                     <h1>02</h1>
@@ -37,9 +42,11 @@ const OurProcess = () => {
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>
+                </Pulse>
             </div>
 
             <div className='col-md-4'>
+            <Pulse>
                 <div className='card'>
                 <div className='header-card'>
                     <h1>03</h1>
@@ -51,6 +58,7 @@ const OurProcess = () => {
 
                     <Link to="/services" className='home-read-more'>Read More</Link>
                 </div>
+                </Pulse>
             </div>
 
         </div>

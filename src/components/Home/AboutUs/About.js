@@ -7,6 +7,8 @@ import Box from '../../../img/group-b.png';
 import AboutImage from '../../../img/about-us-new.png';
 import LOGOBLACK from '../../../img/logo-black.png'
 
+import Fade from 'react-reveal/Fade';
+
 const About = () => {
   return (
     <section className='container '>
@@ -21,7 +23,7 @@ const About = () => {
 
             <div className='home-about-us-right'>
                 <div>
-                <h3>About Us</h3>
+                <Fade top cascade><h3>About Us</h3></Fade>
 
                 <p>Welcome to Hyginos technologies private limited, your number one source for all IT Products. We're dedicated to giving you the very best Services, with a focus on Design and Development.
                 Founded in 2020 by Konambhotla Murthy, Hyginos technologies private limited has come a long way from its beginnings in Yanam (Puducherry, India). When Konambhotla Murthy first started out, His passion for IT Solutions drove them to do tons of research so that Hyginos technologies private limited can offer you the world's most advanced solutions to clients. We now serve customers all over the world.

@@ -5,6 +5,8 @@
 .get-in-touch-title{
     text-align: center;
     padding: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .get-in-touch .main-image{

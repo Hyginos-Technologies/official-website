@@ -5,13 +5,13 @@ import GP from '../../../img/google-play.png'
 import LOGO from '../../../img/logo-f.svg'
 import { Link } from 'react-router-dom'
 
-
+import Fade from 'react-reveal/Fade';
 
 const Portfolio = () => {
   return (
     <section className='portfolio-home'>
         <div className='container'>
-            <h2>Portfolio</h2>
+        <Fade top cascade><h2>Portfolio</h2></Fade>
 
             <div className='portfolio-card'>
               <Link to='/portfolio/petyez' style={{textDecoration:'none',color:'#313131'}}>

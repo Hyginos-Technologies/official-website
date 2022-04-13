@@ -1,12 +1,13 @@
 import React from 'react'
 
 import './Join.css'
+import Fade from 'react-reveal/Fade';
 
 const Join = () => {
   return (
     <section className='container'>
         <div className='join-us'>
-            <h1>Subscribe to our Newsletter </h1>
+        <Fade top cascade><h1>Subscribe to our Newsletter </h1></Fade>
             <p>Signup for our weekly newsletter to get the latest news updates delivered directly in your inbox.</p>
 
             <form className='subscribe'>

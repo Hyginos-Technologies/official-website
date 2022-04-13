@@ -7,12 +7,14 @@ import E3 from '../../../img/e-3.png'
 import E4 from '../../../img/e-4.png'
 import B1 from '../../../img/group-b.png'
 
+import Fade from 'react-reveal/Fade';
+
 const NeedExpert = () => {
   return (
     <section className='container'>
         <div className='need-experts'>
             <div className='main-content-expert'>
-            <h2>MEET OUR CREATEIVE TEAM</h2>
+            <Fade top cascade><h2>MEET OUR CREATEIVE TEAM</h2></Fade>
             </div>
 
         <div className='row'>

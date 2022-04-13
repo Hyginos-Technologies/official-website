@@ -1,10 +1,11 @@
 import React from 'react'
 import './Careers.css'
+import Fade from 'react-reveal/Fade';
 
 const Careers = () => {
   return (
       <section className='careers-container'>
-        <h2 className='career-title'>Careers</h2>
+        <Fade top cascade><h2 className='career-title'>Careers</h2></Fade>
         <div className='careers-container-inner'>
             <div className='container'>
                 <div className='inner-container'>
