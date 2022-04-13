@@ -1,11 +1,12 @@
 import React from 'react'
 import './Message.css'
 import IMG from '../../../img/founder.jpeg'
+import Fade from 'react-reveal/Fade';
 
 const Message = () => {
   return (
     <section className='container text-center' id='message'>
-        <h2>MESSAGE FROM OUR FOUNDER</h2>
+        <Fade top cascade><h2>MESSAGE FROM OUR FOUNDER</h2></Fade>
 
         <div className='message-n-image'>
             <img src={IMG} />

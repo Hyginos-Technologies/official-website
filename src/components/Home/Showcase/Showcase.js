@@ -6,6 +6,7 @@ import LOGO from '../../../img/logo.png'
 import MainNav from '../../main-component/MainNav'
 import { Link } from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
 
 
 const Showcase = () => {
@@ -25,9 +26,9 @@ const Showcase = () => {
       <Zoom left cascade><p className='showcase-title'>Our Intelligent Technology Solutions and Services.</p></Zoom><br/>
       </div>
 
-      <div className='showcase-link-container'>
+      <Rotate top left><div className='showcase-link-container'>
       <Link to='/services' className='showcase-link'>Our Services</Link>
-      </div>
+      </div></Rotate>
 
       </div>
 

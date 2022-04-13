@@ -24,7 +24,7 @@ const PortfolioContent = () => {
             <h3>Petyez</h3>
             <p>Petyez helps users to post their pets for adoption, mating and disappear. With petyez, users can also find pets according to their location or particular category such as Dogs, Birds, Cats and Exotic pets for adoption, mating or disappear purpose.</p>
 
-            <Link to="/portfolio/petyez"><i class="fa-solid fa-arrow-right"></i></Link>
+            <Link to="/portfolio/petyez" style={{color:'#666'}}><i class="fa-solid fa-arrow-right"></i></Link>
             
             </div>
 

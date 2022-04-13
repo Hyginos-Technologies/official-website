@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-family:"Calibri","sans-serif";
     background-color: #e5e5e5;

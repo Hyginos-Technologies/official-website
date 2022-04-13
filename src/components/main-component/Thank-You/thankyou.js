@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 
 import MainNav from '../MainNav'
 
+import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
+
 const thankyou = () => {
   return (
     <header>
@@ -18,13 +21,13 @@ const thankyou = () => {
 
     <div className='wrap-showcase-content'>
     <div className='showcase-content'>
-      <p className='showcase-content-caption'>Thank You </p>
-      <p className='showcase-title'>Thank You For Contacting Us We Will Get Back To You Soon..</p><br/>
+    <Zoom left cascade><p className='showcase-content-caption'>Thank You </p></Zoom>
+    <Zoom left cascade><p className='showcase-title'>Thank You For Contacting Us We Will Get Back To You Soon..</p></Zoom><br/>
     </div>
 
-    <div className='showcase-link-container'>
+    <Rotate top left><div className='showcase-link-container'>
       <Link to='/' className='showcase-link'>Go Home</Link>
-      </div>
+      </div></Rotate>
 
     </div>
   </header>

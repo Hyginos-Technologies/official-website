@@ -4,7 +4,7 @@ import LOGO from '../../../../img/logo.png'
 
 import MainNav from '../../../main-component/MainNav'
 import { Link } from 'react-router-dom'
-
+import Zoom from 'react-reveal/Zoom';
 
 const ShowcaseUIUX = () => {
   return (
@@ -18,8 +18,8 @@ const ShowcaseUIUX = () => {
 
     <div className='wrap-showcase-content'>
     <div className='showcase-content'>
-      <p className='showcase-content-caption'>UI /UX Design</p>
-      <p className='showcase-title'>We Design Creative & Attractive UI Designs.</p><br/>
+    <Zoom left cascade><p className='showcase-content-caption'>UI /UX Design</p></Zoom>
+    <Zoom left cascade><p className='showcase-title'>We Design Creative & Attractive UI Designs.</p></Zoom><br/>
     </div>
 
     </div>

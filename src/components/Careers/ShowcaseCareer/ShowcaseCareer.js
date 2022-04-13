@@ -4,7 +4,7 @@ import './ShowcaseCareer.css'
 import LOGO from '../../../img/logo.png'
 import MainNav from '../../main-component/MainNav'
 import { Link } from 'react-router-dom'
-
+import Zoom from 'react-reveal/Zoom';
 
 
 const ShowcaseCareer = () => {
@@ -19,8 +19,8 @@ const ShowcaseCareer = () => {
 
     <div className='wrap-showcase-content'>
     <div className='showcase-content'>
-      <p className='showcase-content-caption'>Our Careers</p>
-      <p className='showcase-title'>Be a Part of our Team.</p><br/>
+    <Zoom left cascade><p className='showcase-content-caption'>Our Careers</p></Zoom>
+    <Zoom left cascade><p className='showcase-title'>Be a Part of our Team.</p></Zoom><br/>
     </div>
 
     </div>

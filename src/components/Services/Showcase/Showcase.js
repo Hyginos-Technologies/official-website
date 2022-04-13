@@ -5,7 +5,7 @@ import LOGO from '../../../img/logo.png'
 import MainNav from '../../main-component/MainNav'
 import { Link } from 'react-router-dom'
 
-
+import Zoom from 'react-reveal/Zoom';
 
 const Showcase = () => {
   return (
@@ -19,8 +19,8 @@ const Showcase = () => {
 
     <div className='wrap-showcase-content'>
     <div className='showcase-content'>
-      <p className='showcase-content-caption'>Our Services</p>
-      <p className='showcase-title'>Providing Vast Array of Services for Your Business.</p><br/>
+    <Zoom left cascade><p className='showcase-content-caption'>Our Services</p></Zoom>
+    <Zoom left cascade><p className='showcase-title'>Providing Vast Array of Services for Your Business.</p></Zoom><br/>
     </div>
 
     </div>
