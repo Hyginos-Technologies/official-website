@@ -23,6 +23,13 @@ ul li a:hover{
     border-radius: 80%;
 }
 
+#main-navlist li{
+    padding: 8px;
+}
+
+#main-navlist li a{
+    color: #000;
+}
 
 @media screen and (max-width: 960px) {
     ul {

@@ -41,7 +41,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-      {/* <SocialBar /> */}
+      <SocialBar />
       <Footer />
     </div>
   );

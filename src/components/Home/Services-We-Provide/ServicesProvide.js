@@ -19,7 +19,7 @@ const ServicesProvide = () => {
         </div>
 
         <div className='row' id='services-card'>
-            <Link className='col-md-3 col-sm-12' to='/services/graphic-design' style={{textDecoration:'none'}}>
+            <Link className='col-md-3 col-sm-12 my-3' to='/services/graphic-design' style={{textDecoration:'none'}}>
             <Jump>
                 <div class="card" >
                     <div class="card-body">
@@ -31,7 +31,7 @@ const ServicesProvide = () => {
             </Jump>
             </Link>
 
-            <Link className='col-md-3 col-sm-12' to='/services/ui-ux'  style={{textDecoration:'none'}}>
+            <Link className='col-md-3 col-sm-12 my-3' to='/services/ui-ux'  style={{textDecoration:'none'}}>
             <Jump>
             <div class="card" >
                 <div class="card-body">
@@ -43,7 +43,7 @@ const ServicesProvide = () => {
             </Jump>
             </Link>
 
-            <Link className='col-md-3 col-sm-12' to='/services/digital-marketing'  style={{textDecoration:'none'}}>
+            <Link className='col-md-3 col-sm-12 my-3' to='/services/digital-marketing'  style={{textDecoration:'none'}}>
             <Jump>
             <div class="card" >
                 <div class="card-body">
@@ -55,7 +55,7 @@ const ServicesProvide = () => {
             </Jump>
             </Link>
 
-            <Link className='col-md-3 col-sm-12' to='/services/web-dev'  style={{textDecoration:'none'}}>
+            <Link className='col-md-3 col-sm-12 my-3' to='/services/web-dev'  style={{textDecoration:'none'}}>
             <Jump>
             <div class="card" >
                 <div class="card-body">

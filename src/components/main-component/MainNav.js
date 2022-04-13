@@ -29,14 +29,17 @@ const MainNav = () => {
         <Offcanvas.Title id="offcanvasNavbarLabel"><img src={LOGO} id='dropdown-image' />  Hyginos Technologies</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
-        <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/services">Services</Nav.Link>
-          <Nav.Link href="/careers">Careers</Nav.Link>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="/contact-us">Contact Us</Nav.Link>
-         
+        <Nav className="justify-content-end flex-grow-1 pe-3" id='main-navlist'>
+
+          
+          <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/contact-us">Contact Us</Link></li>
+    
+
         </Nav>
 
       </Offcanvas.Body>
@@ -44,7 +47,7 @@ const MainNav = () => {
   </Container>
 </Navbar>
 
- <ul>
+     <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
