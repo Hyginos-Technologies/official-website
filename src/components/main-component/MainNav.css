@@ -9,3 +9,9 @@ ul li a:hover{
     border-bottom: 1px solid #fff;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 960px) {
+    ul {
+        display: none;
+    }
+}

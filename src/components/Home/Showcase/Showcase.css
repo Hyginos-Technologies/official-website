@@ -25,6 +25,7 @@ header h1{
     font-weight: 400;
     text-transform: capitalize;
     line-height: 20px;
+    white-space: nowrap;
 }
 
 header ul{
