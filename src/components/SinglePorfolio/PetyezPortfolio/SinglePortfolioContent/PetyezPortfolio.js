@@ -19,7 +19,7 @@ const PetyezPortfolio = () => {
       <div className='desc'>
         <h2>PETYEZ</h2>
         <img src={IMG} className='logo' />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p>Petyez helps users to post their pets for adoption, mating and disappear. With petyez, users can also find pets according to their location or particular category such as Dogs, Birds, Cats and Exotic pets for adoption, mating or disappear purpose.You can select a particular pet or search for pet and view all the information associated to the selected pet such as pictures of the pet, details of the pet, and contact details of the pet owner.You can find pets according to various categories and also filter by Breeds, Sex, Age, Vaccinated, Registered, Pet for (Adoption, Mating & Disappear), Sort by (Price and Date).A simple chat page is provided which enables the user to contact with the owner of the pet, it helps the user to find extra details of the pet by chatting with the owner.</p>
         <div className='image-google-play'>
         <a href='https://play.google.com/store/apps/details?id=com.pet_animals' target='_blank'><img src={GP} /></a>
       </div>
