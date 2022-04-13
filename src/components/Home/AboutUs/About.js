@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <section className='container'>
+    <section className='container my-5'>
         <div className='row home-about-us'>
 
             
