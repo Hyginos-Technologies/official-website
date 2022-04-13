@@ -40,3 +40,24 @@ margin-top: 35px;
 .join-us .subscribe button{
     border-radius: 10px;
 }
+
+@media screen and (max-width: 750px) {
+    .join-us{
+        margin: auto;
+    }
+
+   .join-us h1{
+        font-size: 25px;
+   }
+
+   .join-us .subscribe input{
+       width: 100%;
+       display: block;
+       margin: 10px;
+   }
+
+   .join-us .subscribe button{
+    width: 100%;
+    display: block;
+}
+}

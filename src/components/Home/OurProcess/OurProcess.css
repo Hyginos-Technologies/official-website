@@ -55,3 +55,19 @@
     text-align: center;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 750px) {
+    .our-process .home-read-more{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .our-process{
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .our-process .card {
+        padding: 0;
+    }
+}

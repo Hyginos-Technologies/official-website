@@ -13,7 +13,7 @@ const OurProcess = () => {
 
         <div className='row'>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 col-sm-12'>
             <Pulse>
                 <div className='card'>
                 <div className='header-card'>
@@ -29,7 +29,7 @@ const OurProcess = () => {
                 </Pulse>
             </div>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 col-sm-12'>
             <Pulse>
                 <div className='card'>
                 <div className='header-card'>
@@ -45,7 +45,7 @@ const OurProcess = () => {
                 </Pulse>
             </div>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 col-sm-12'>
             <Pulse>
                 <div className='card'>
                 <div className='header-card'>

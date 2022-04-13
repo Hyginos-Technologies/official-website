@@ -56,14 +56,28 @@ header .wrap-showcase-content{
     margin-left: 15%;
 }
 
-header .showcase-content .showcase-title{
-    margin: 0;
-}
-
 header .showcase-content .showcase-content-caption{
     font-weight: 300;
     font-size: 20px;
     line-height: 20px;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    header .wrap-showcase-content .showcase-content{
+        width: 400px;
+    }
+
+   header .wrap-showcase-content .showcase-content .showcase-content-caption{
+       font-size: 15px;
+   }
+
+   header .wrap-showcase-content .showcase-content .showcase-title{
+       font-size: 20px;
+       width: 70%;
+       margin: 0;
+       padding: 0;
+   }
 }

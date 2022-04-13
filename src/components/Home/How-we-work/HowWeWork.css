@@ -3,6 +3,7 @@
     justify-content: center;
     margin: 30px;
     padding: 30px;
+    overflow: hidden;
 }
 
 .how-we-work-right{
@@ -69,4 +70,19 @@
     background-color: #313131;
     border-radius: 5px;
     padding: 8px 40px;
+}
+
+@media screen and (max-width: 750px) {
+    .how-we-work-left h2{
+        font-size: 25px;
+    }
+
+    .how-we-work{
+        margin: auto;
+        text-align: center;
+    }
+
+    .how-we-work-right{
+        margin-top: 30px;
+    }
 }

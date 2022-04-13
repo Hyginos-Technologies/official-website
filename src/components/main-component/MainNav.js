@@ -4,6 +4,7 @@ import './MainNav.css'
 
 const MainNav = () => {
   return (
+    <>
     <ul>
     <li><Link to="/">Home</Link></li>
     <li><Link to="/about">About</Link></li>
@@ -12,6 +13,7 @@ const MainNav = () => {
     <li><Link to="/portfolio">Portfolio</Link></li>
     <li><Link to="/contact-us">Contact Us</Link></li>
   </ul> 
+    </>
   )
 }
 

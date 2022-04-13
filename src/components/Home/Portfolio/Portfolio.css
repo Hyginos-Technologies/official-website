@@ -40,3 +40,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 750px) {
+    .portfolio-card{
+        width: 100%;
+    }
+}

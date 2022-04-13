@@ -13,7 +13,7 @@ const HowWeWork = () => {
     <section className='container'>
         <div className='how-we-work row'>
 
-            <div className='col-md-6 how-we-work-left'>
+            <div className='col-sm-12 col-md-6 how-we-work-left'>
                 <div>
                 <Fade top cascade><h2>HOW WE WORK</h2></Fade>
                 <p><span>“</span>We have an amazing team who are dedicated and motivated to work for our company.We at Hyginos Technologies treat our team as our own family.</p>
@@ -24,7 +24,7 @@ const HowWeWork = () => {
                 </div>
             </div>
 
-            <div className='col-md-6 how-we-work-right'>
+            <div className='col-sm-12 col-md-6 how-we-work-right'>
                 <img src={R1} className='how-we-work-r-1' />
                 <img src={MI} className='how-we-work-main-1' />
                 <img src={B1} className='how-we-work-b-1' />

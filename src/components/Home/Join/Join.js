@@ -10,9 +10,9 @@ const Join = () => {
         <Fade top cascade><h1>Subscribe to our Newsletter </h1></Fade>
             <p>Signup for our weekly newsletter to get the latest news updates delivered directly in your inbox.</p>
 
-            <form className='subscribe'>
-            <input type="email" class="form-control"  placeholder="email@gmail.com" />
-            <button className='btn btn-dark'>Subscribe Now</button>
+            <form className='subscribe row'>
+            <input type="email" class="form-control col-sm-12 col-md-10"  placeholder="email@gmail.com" />
+            <button className='btn btn-dark col-sm-12 col-md-2'>Subscribe Now</button>
             </form>
         </div>
     </section>

@@ -11,17 +11,19 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <section className='container '>
-        <div className='home-about-us'>
+    <section className='container'>
+        <div className='row home-about-us'>
 
-            <div className='home-about-us-left'>
+            
+            <div className='col-sm-12 col-md-6 home-about-us-left'>
                 <img src={AboutImage} className='image-main-about' />
                 <h1><span className='logo'><img src={LOGOBLACK} /></span>Hyginos technologies</h1>
                 <img src={Rocket} className='image-r-about' />
                 <img src={Box} className='image-b-about' />
             </div>
+          
 
-            <div className='home-about-us-right'>
+            <div className='col-sm-12 col-md-6 home-about-us-right'>
                 <div>
                 <Fade top cascade><h3>About Us</h3></Fade>
 

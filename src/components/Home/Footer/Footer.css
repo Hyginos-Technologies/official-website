@@ -2,6 +2,7 @@ footer{
     background-color:  #0E0D12;
     color: #fff;
     padding: 30px;
+    overflow-x: hidden;
 }
 
 footer .footer-logo-cover{
@@ -32,6 +33,10 @@ footer ul{
     list-style: none;
 }
 
+footer ul{
+    padding: 0;
+}
+
 footer ul li{
     display: flex;
     margin: 10px;
@@ -39,7 +44,7 @@ footer ul li{
 
 footer ul li span:nth-child(2){
     color: #ccc;
-    margin-left: 30px;
+    margin-left: 10px;
     text-transform: capitalize;
 }
 

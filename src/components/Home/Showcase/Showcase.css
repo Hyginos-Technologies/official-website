@@ -56,9 +56,7 @@ header .wrap-showcase-content{
     margin-left: 15%;
 }
 
-header .showcase-content .showcase-title{
-    margin: 0;
-}
+
 
 header .showcase-content .showcase-content-caption{
     font-weight: 300;
@@ -80,4 +78,21 @@ header .showcase-link{
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+@media screen and (max-width: 500px) {
+
+    header .wrap-showcase-content .showcase-content{
+        width: 400px;
+    }
+
+   header .wrap-showcase-content .showcase-content .showcase-content-caption{
+       font-size: 15px;
+   }
+
+   header .wrap-showcase-content .showcase-content .showcase-title{
+       font-size: 20px;
+       width: 70%;
+      
+   }
 }

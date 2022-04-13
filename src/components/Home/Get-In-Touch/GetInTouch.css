@@ -1,5 +1,6 @@
 .get-in-touch{
     padding: 20px;
+    overflow: hidden;
 }
 
 .get-in-touch-title{
@@ -48,4 +49,19 @@
     background-color: #cccccc;
     color: #f3ebeb;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .get-in-touch{
+        margin: auto;
+    }
+
+    .get-in-touch-title{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+   
 }

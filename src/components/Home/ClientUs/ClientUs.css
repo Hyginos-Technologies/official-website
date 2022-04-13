@@ -1,6 +1,6 @@
 .client-us{
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../../../img/testmonials.png') ;
-    height: 90vh;
+    height: 100vh;
 }
 
 .client-us .content-client{
@@ -48,4 +48,22 @@
 
 .slide-icons i:nth-last-child(2){
     color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    .client-us .content-client h1{
+        font-size: 25px;
+    }
+
+    .client-us .content-client h6{
+        font-size: 20px;
+    }
+
+    .client-us .content-client h6{
+        font-size: 18px;
+    }
+
+    .client-profile {
+        margin-left: 20%;
+    }
 }
