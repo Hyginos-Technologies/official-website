@@ -22,23 +22,24 @@ const UIUX = () => {
 
     <h2>UI / UX Design</h2>
     
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>A user interface is a place where interactions between humans and machines occur. It allows users to effectively operate a machine to complete a task or achieve a specific goal, like making a purchase or downloading an app.</p>
 
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <p>User experience is the experience that a person has as they interact with a product. The term was coined by Don Norman back in the 90s when he worked at Apple. Don Norman says that ‘‘User experience’ encompasses all aspects of the end-users interaction with the company, its services, and its products.”</p>
 
-    <h3>By industrializing data integration, big data management, and AI/ML initiatives through our accelerators and frameworks, we help turn data into decisions, at scale.</h3>
+    <h3>Using Customized Designs built by our Team We make sure that you get the best possible Designs out there.</h3>
 
     <div className='one-service-content'>
 
     <div className='one-service-sub-content'>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>The meanings of UX and UI imply that they are related design disciplines, yet they are very different in nature. The UI design is more concerned with the visual properties of design as well as the overall feel it conveys. But without great UX, even the most beautifully designed UI will cause a bad user experience.</p>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <p>Down Below are Some of the Tools we Use</p>
 
     <ul>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
+        <li>Figma</li>
+        <li>Behance</li>
+        <li>Dribble</li>
+        <li>Mobbin</li>
     </ul>
     </div>
 

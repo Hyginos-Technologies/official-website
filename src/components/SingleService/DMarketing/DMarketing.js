@@ -20,23 +20,27 @@ const DMarketing = () => {
 
     <h2>Digital Marketing</h2>
     
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>At a high level, digital marketing refers to advertising delivered through digital channels such as search engines, websites, social media, email, and mobile apps. Using these online media channels, digital marketing is the method by which companies endorse goods, services, and brands. Consumers heavily rely on digital means to research products. For example, Think with Google marketing insights found that 48% of consumers start their inquiries on search engines, while 33% look to brand websites and 26% search within mobile applications.</p>
 
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <p>While modern day digital marketing is an enormous system of channels to which marketers simply must onboard their brands, advertising online is much more complex than the channels alone. In order to achieve the true potential of digital marketing, marketers have to dig deep into today’s vast and intricate cross-channel world to discover strategies that make an impact through engagement marketing. Engagement marketing is the method of forming meaningful interactions with potential and returning customers based on the data you collect over time. By engaging customers in a digital landscape, you build brand awareness, set yourself as an industry thought leader, and place your business at the forefront when the customer is ready to buy.</p>
 
-    <h3>By industrializing data integration, big data management, and AI/ML initiatives through our accelerators and frameworks, we help turn data into decisions, at scale.</h3>
+    <h3>By Using Digital Marketing you can enhance the use of your product or service.</h3>
 
     <div className='one-service-content'>
 
     <div className='one-service-sub-content'>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>To optimize your marketing strategies, digital is mandatory. Digital marketing can help you to get to know your audience, learn important data about them, and provide metrics that will give your marketing team credibility.</p>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <p>Tactics that we use inorder to get more customers for your product or service :</p>
 
     <ul>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
+        <li>Search engine optimization (SEO)</li>
+        <li>Social media marketing</li>
+        <li>Video marketing</li>
+        <li>Email marketing</li>
+        <li>Blogging & affiliate marketing</li>
+        <li>Website marketing</li>
+        <li>Search engine marketing</li>
     </ul>
     </div>
 

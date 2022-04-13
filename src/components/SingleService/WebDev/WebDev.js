@@ -22,23 +22,27 @@ const WebDev = () => {
 
     <h2>Web Development</h2>
     
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>Despite conventional wisdom, the core part of website development and design is not necessary for the coding process. Indeed, such technologies as HTML, CSS, and JavaScript give the web we know its shape and define the way we interact with the information. But what usually stays behind the scenes and, at the same time, remains the crucial part of the website development life cycle are the stages of preliminary information gathering, detailed planning, and post-launch maintenance.</p>
 
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <p>Website development is a way to make people aware of the services and/or products you are offering, understand why your products are relevant and even necessary for them to buy or use, and see which of your company's qualities set it apart from competitors.</p>
 
-    <h3>By industrializing data integration, big data management, and AI/ML initiatives through our accelerators and frameworks, we help turn data into decisions, at scale.</h3>
+    <h3>By Using Front-End Languages & Back-End Languages we Develop most reliable application for your business.</h3>
 
     <div className='one-service-content'>
 
     <div className='one-service-sub-content'>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+    <p>Communicate with your visitors effectively. Interacting with your audience is vital when it comes to generating more business. It is viable to make a website that enables you to get in touch with your customers and prospects, and you can produce valuable content for the audience associated with the industry or business you're in. Afterwards, post the content on your blog, share it on social media networks and respond to customers' comments and feedback promptly. This will show  clients the extent to which you’re concerned about their satisfaction and responsive to their needs.</p>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <p>Our Web Development Process contains seven steps:</p>
 
     <ul>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</li>
+        <li>Information Gathering</li>
+        <li>Planning</li>
+        <li>Design</li>
+        <li>Content Writing and Assembly</li>
+        <li>Coding</li>
+        <li>Testing, Review and Launch</li>
+        <li>Maintenance</li>
     </ul>
     </div>
 
