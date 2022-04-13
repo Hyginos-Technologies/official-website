@@ -47,3 +47,19 @@
 #portfolio-content .portfolio-single .portfolio-desc i:hover{
     transform: translateX(10px);
 }
+
+@media screen and (max-width: 500px) {
+    #portfolio-content .portfolio-single img{
+        width: 80%;
+        margin: auto;
+    }
+
+    #portfolio-content .portfolio-single .portfolio-desc{
+        margin: auto;
+    }
+
+    #portfolio-content .portoflio-title h2{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+}

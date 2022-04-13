@@ -17,10 +17,10 @@ const PortfolioContent = () => {
       <div className='row'>
 
         <div className='col-md-12 my-5'>
-          <div className='portfolio-single'>
-            <img src={IMG} alt='PORTFOLIO' />
+          <div className='row portfolio-single'>
+            <img src={IMG} className='col-sm-12 col-md-6' alt='PORTFOLIO' />
 
-            <div className='portfolio-desc'>
+            <div className='col-sm-12 col-md-6 portfolio-desc'>
             <h3>Petyez</h3>
             <p>Petyez helps users to post their pets for adoption, mating and disappear. With petyez, users can also find pets according to their location or particular category such as Dogs, Birds, Cats and Exotic pets for adoption, mating or disappear purpose.</p>
 
