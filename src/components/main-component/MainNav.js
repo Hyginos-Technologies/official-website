@@ -11,6 +11,8 @@ import { Nav } from 'react-bootstrap';
 import { Offcanvas } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
+import LOGO from '../../img/logo-black.png'
+
 const MainNav = () => {
   return (
     <>
@@ -22,10 +24,9 @@ const MainNav = () => {
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
       placement="end"
-      
-    >
+    > 
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel">Hyginos Technologies</Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel"><img src={LOGO} id='dropdown-image' />  Hyginos Technologies</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
